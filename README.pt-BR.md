@@ -1,0 +1,45 @@
+# Assembly Studio Desktop
+
+**Planejamento de montagem de DNA, desenho de oligonucleotídeos e verificação de construções em um aplicativo local.**
+
+Desenvolvido por Diego Bonatto · LBCM · Universidade Federal do Rio Grande do Sul (UFRGS).
+
+[Baixar instaladores](https://github.com/bonattod/assembly-studio-desktop/releases/latest) · [English](README.md) · [Guia de instalação](LEIA-ME-Assembly-Studio-Desktop.txt)
+
+## Downloads públicos — versão 1.14.0
+
+| Computador | Arquivo |
+| --- | --- |
+| Windows x64 | [Instalador .exe](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-win-x64.exe) |
+| Linux Debian/Ubuntu x64 | [Pacote .deb](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-linux-amd64.deb) |
+| Outras distribuições Linux compatíveis, x64 | [Arquivo .tar.gz](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-linux-x64.tar.gz) |
+| Mac com Apple Silicon | [Instalador .dmg ARM64](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-mac-arm64.dmg) |
+| Mac com processador Intel | [Instalador .dmg x64](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-mac-x64.dmg) |
+
+Não é necessário solicitar acesso à versão web para baixar e executar o aplicativo. Os arquivos **Source code** gerados automaticamente pelo GitHub contêm a documentação deste repositório de distribuição; escolha um instalador da tabela.
+
+## Funcionalidades
+
+O programa reúne técnicas de montagem **in vitro**, incluindo Gibson e TPA; montagem e edição de plasmídeos **in vivo**; e técnicas **Golden Gate/Tipo IIS**. Também inclui avaliação de vetores, análise de oligos nas duas fitas, exportações combinadas para síntese, consolidação de sequências idênticas, preservação de anotações, verificação por PCR/restrição e sequenciamento, montagem combinatória e exportação SnapGene.
+
+A interface do aplicativo está em inglês. Os motores de cálculo e os componentes científicos estão incluídos: o usuário não precisa instalar Python ou Node.js. Consultas explícitas ao NEB e páginas externas exigem internet.
+
+## Instalação e uso
+
+Consulte o [guia de instalação](LEIA-ME-Assembly-Studio-Desktop.txt) e confira a integridade dos arquivos usando [SHA-256](SHA256SUMS-Assembly-Studio-Desktop-1.14.0.txt).
+
+Use **Open project** para abrir um projeto e **Save project** para salvar o arquivo `.assembly.json`, compatível com a versão web. **Não há salvamento automático.** As atualizações também são manuais.
+
+Os pacotes iniciais não possuem certificado de assinatura do publicador nem notarização Apple; o sistema ou a instituição podem bloquear a instalação. Não desative as proteções globais do sistema. Houve testes automáticos nas quatro plataformas e verificação visual do aplicativo empacotado em Linux. A instalação em máquinas limpas e a interface de Windows/macOS ainda não foram avaliadas manualmente. Os detalhes estão em [VALIDATION.md](VALIDATION.md).
+
+As verificações computacionais não equivalem à validação experimental. Fidelidade de ligação, rendimento e proporção de clones corretos devem ser interpretados como medidas distintas.
+
+A [versão web](https://assembly-studio-lbcm.diegobonatto.chatgpt.site) permanece disponível com suas permissões atuais. A distribuição pública desktop é independente desses acessos.
+
+## Colaboração e citação
+
+Relate problemas ou sugestões em [Issues](https://github.com/bonattod/assembly-studio-desktop/issues), informando versão, sistema operacional e passos para reproduzir. Prefira exemplos sintéticos mínimos, pois os relatos e anexos são públicos.
+
+Citação sugerida: **Bonatto, D. (2026). Assembly Studio Desktop (Version 1.14.0) [Computer software]. LBCM, UFRGS. https://github.com/bonattod/assembly-studio-desktop**
+
+Cite também os artigos das técnicas científicas utilizadas. Este repositório publica instaladores e documentação; o repositório de desenvolvimento é mantido separadamente. A disponibilização pública dos instaladores não significa a adoção de uma licença de código aberto. Os componentes de terceiros mantêm suas próprias licenças e avisos.

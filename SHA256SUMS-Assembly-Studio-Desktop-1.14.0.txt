@@ -1,0 +1,5 @@
+ac7bb47dca7894038a839caeb7fd5b07f2f9eda6a182b598a9ebf1c9a1b96086  Assembly-Studio-Desktop-1.14.0-win-x64.exe
+a586e4d7c0b971d632ae30cf497cee8ce595bda73f6d68598f955a35a2ecc3f4  Assembly-Studio-Desktop-1.14.0-linux-amd64.deb
+c6a3f79f404e0d1f175791e43ba4dc6c420173c48d8d793f7ff3df7e69c40622  Assembly-Studio-Desktop-1.14.0-linux-x64.tar.gz
+790ff54eef0271d4d3ad1781669854d3858e7bbf67fc4c88161ef561297a506b  Assembly-Studio-Desktop-1.14.0-mac-arm64.dmg
+0e885de2e4953212005c86ebfb86965af023fe5c212e7b504cc02d5a5f562955  Assembly-Studio-Desktop-1.14.0-mac-x64.dmg

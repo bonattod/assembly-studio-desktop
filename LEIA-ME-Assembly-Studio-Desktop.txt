@@ -1,0 +1,73 @@
+ASSEMBLY STUDIO DESKTOP 1.14.0 — LBCM / UFRGS
+
+A versão desktop usa o mesmo núcleo científico da versão web:
+https://assembly-studio-lbcm.diegobonatto.chatgpt.site
+
+ESCOLHA O ARQUIVO PARA O SEU COMPUTADOR
+
+Windows x64: Assembly-Studio-Desktop-1.14.0-win-x64.exe
+Execute o instalador e escolha a pasta. Depois, abra Assembly Studio Desktop
+pelo menu Iniciar ou pelo atalho criado.
+
+Linux Debian/Ubuntu x64: Assembly-Studio-Desktop-1.14.0-linux-amd64.deb
+Abra o arquivo no instalador de pacotes do sistema. Alternativamente, na pasta
+do download, execute:
+sudo apt install ./Assembly-Studio-Desktop-1.14.0-linux-amd64.deb
+
+Outras distribuições Linux x64: Assembly-Studio-Desktop-1.14.0-linux-x64.tar.gz
+Extraia o pacote e execute assembly-studio-desktop dentro da pasta extraída.
+Mantenha os arquivos juntos. Bibliotecas gráficas do sistema são necessárias.
+Não execute como root nem desative o sandbox para contornar incompatibilidades.
+
+Mac com Apple Silicon (M1, M2 e posteriores):
+Assembly-Studio-Desktop-1.14.0-mac-arm64.dmg
+
+Mac com processador Intel:
+Assembly-Studio-Desktop-1.14.0-mac-x64.dmg
+
+No Mac, abra o DMG e copie Assembly Studio Desktop para Aplicativos.
+
+Estes pacotes iniciais não possuem certificado de assinatura do publicador
+nem notarização Apple. O sistema ou as regras da instituição podem bloquear a
+instalação. Para uma distribuição institucional ampla, é recomendável assinar
+os instaladores. Não é necessário desativar globalmente a segurança do sistema.
+
+PROJETOS E ARQUIVOS
+
+Use Open project para abrir projetos JSON do Assembly Studio ou dos módulos.
+Use Save project para salvar o projeto integrado em um arquivo .assembly.json.
+Atalhos: Ctrl+O/Ctrl+S; no Mac, Cmd+O/Cmd+S.
+O mesmo projeto pode ser aberto na versão web e na versão desktop.
+
+Para importar FASTA, GenBank, SnapGene ou leituras de sequenciamento, use os
+controles de importação do módulo correspondente.
+As exportações FASTA, TAB, GenBank, SnapGene e ZIP permanecem disponíveis.
+
+Salve antes de fechar: esta versão NÃO salva projetos automaticamente.
+Atualizações são manuais: instale a versão mais recente e reabra o JSON salvo.
+
+USO LOCAL E INTERNET
+
+Os motores de cálculo, incluindo os componentes Python, já estão no pacote.
+O usuário não precisa instalar Python ou Node.js.
+Montagem, análise local dos oligos, verificação e exportações funcionam no
+computador. Consultas explícitas ao NEB e sites externos precisam de internet.
+Nenhuma consulta real ao NEB foi usada na verificação desta edição desktop.
+
+A distribuição desktop é independente da lista de e-mails autorizados no site:
+quem receber o instalador poderá executar o programa localmente. A versão web
+mantém seu endereço e suas permissões atuais.
+
+VALIDAÇÃO DESTA ENTREGA
+
+283 testes do núcleo científico e 10 testes específicos do desktop passaram
+localmente. No Linux, foram testados geração de exemplos Gibson e TPA,
+salvamento/reabertura de projeto e exportação SnapGene. O arquivo SnapGene
+exportado foi conferido: 3.000 pb e 18 registros de primers.
+
+Os instaladores de Windows e macOS foram compilados em executores desses
+sistemas. Sua interface e a instalação em máquinas limpas ainda não foram
+avaliadas manualmente nesta sessão. O teste visual disponível foi feito em Linux.
+
+As verificações computacionais não equivalem à validação experimental.
+O arquivo SHA256SUMS fornecido permite conferir a integridade dos downloads.

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use Assembly Studio Desktop, please cite this software and the original scientific methods relevant to your analysis."
+type: software
+title: "Assembly Studio Desktop"
+authors:
+  - family-names: "Bonatto"
+    given-names: "Diego"
+    affiliation: "LBCM, Universidade Federal do Rio Grande do Sul (UFRGS)"
+version: "1.14.0"
+date-released: 2026-11-15
+url: "https://github.com/bonattod/assembly-studio-desktop"
+abstract: "Desktop workspace for DNA assembly planning, oligonucleotide design, synthesis exports and construct verification."
+keywords:
+  - synthetic biology
+  - DNA assembly
+  - oligonucleotide design
+  - Gibson assembly
+  - Golden Gate assembly
