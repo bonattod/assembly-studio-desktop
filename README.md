@@ -81,4 +81,8 @@ Machine-readable citation metadata is provided in [CITATION.cff](CITATION.cff). 
 
 ## Repository scope
 
-This public repository distributes installers and user documentation. The development repository is maintained separately. Public availability of the installers is not a statement that the application has an open-source license. Third-party components retain their respective license terms and notices.
+The original Assembly Studio code and documentation are licensed under the [MIT License](LICENSE). Third-party components retain their own terms; see [license scope and notices](THIRD_PARTY_NOTICES.md).
+
+This public repository distributes installers and documentation. The development repository remains private; adding the MIT license does not itself make the source code publicly available.
+
+Contact: [diego.bonatto@ufrgs.br](mailto:diego.bonatto@ufrgs.br).

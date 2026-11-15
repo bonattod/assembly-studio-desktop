@@ -42,4 +42,12 @@ Relate problemas ou sugestões em [Issues](https://github.com/bonattod/assembly-
 
 Citação sugerida: **Bonatto, D. (2026). Assembly Studio Desktop (Version 1.14.0) [Computer software]. LBCM, UFRGS. https://github.com/bonattod/assembly-studio-desktop**
 
-Cite também os artigos das técnicas científicas utilizadas. Este repositório publica instaladores e documentação; o repositório de desenvolvimento é mantido separadamente. A disponibilização pública dos instaladores não significa a adoção de uma licença de código aberto. Os componentes de terceiros mantêm suas próprias licenças e avisos.
+Cite também os artigos das técnicas científicas utilizadas.
+
+## Licença e contato
+
+O código original do Assembly Studio e a documentação adotam a [licença MIT](LICENSE). Os componentes de terceiros mantêm suas próprias licenças e avisos. Consulte o [escopo da licença](THIRD_PARTY_NOTICES.md).
+
+Este repositório público contém instaladores e documentação. O repositório de desenvolvimento permanece privado: adicionar a licença MIT não publica automaticamente o código-fonte.
+
+Contato: [diego.bonatto@ufrgs.br](mailto:diego.bonatto@ufrgs.br).
