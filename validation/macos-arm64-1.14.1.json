@@ -1,0 +1,34 @@
+{
+  "version": "1.14.1",
+  "coreVersion": "1.14.0",
+  "os": "24.6.0",
+  "arch": "arm64",
+  "dmgVerified": true,
+  "mountedSignature": {
+    "architecture": "arm64",
+    "signature": "ad-hoc",
+    "hardenedRuntime": true,
+    "deepStrictVerification": true
+  },
+  "copiedSignature": {
+    "architecture": "arm64",
+    "signature": "ad-hoc",
+    "hardenedRuntime": true,
+    "deepStrictVerification": true
+  },
+  "smoke": {
+    "version": "1.14.1",
+    "coreVersion": "1.14.0",
+    "platform": "darwin",
+    "title": "Assembly Studio Desktop · 1.14.1",
+    "wasmResult": 42,
+    "constructLength": 2334,
+    "primerCount": 6,
+    "projectRoundTrip": true,
+    "rendererIsolated": true,
+    "arch": "arm64",
+    "ok": true
+  },
+  "notarized": false,
+  "gatekeeperApprovalTested": false
+}

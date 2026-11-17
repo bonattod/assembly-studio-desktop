@@ -1,0 +1,2 @@
+e508e3e3bab922617935fb90788acd0e0546c3c4fd3197eb5aadfcf78844157f  Assembly-Studio-Desktop-1.14.1-mac-arm64.dmg
+884f5ab5b2ba4ebf1b1595a20f357121376f61d5fbf419695ea98025c465033e  Assembly-Studio-Desktop-1.14.1-mac-x64.dmg
