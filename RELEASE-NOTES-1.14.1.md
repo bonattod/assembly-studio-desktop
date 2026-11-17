@@ -4,6 +4,8 @@ This patch addresses the macOS packaging problem reported when opening version 1
 
 ## Download selection
 
+**Publication status, checked on 17 November 2026:** installer upload to GitHub Releases is pending. These notes document the prepared macOS update, not a completed public release. See the [installation and availability guide](INSTALL-MACOS.md) ([Português](INSTALL-MACOS.pt-BR.md)).
+
 - Apple Silicon (M1, M2 and later): `Assembly-Studio-Desktop-1.14.1-mac-arm64.dmg`.
 - Intel Macs: `Assembly-Studio-Desktop-1.14.1-mac-x64.dmg`.
 - Windows and Linux: continue using their existing 1.14.0 installers.
@@ -26,13 +28,11 @@ Both installers passed their respective native macOS jobs. The application launc
 
 ## Installation and signing status
 
-Close the previous application, open the matching DMG, and copy Assembly Studio Desktop to Applications. Open the copy in Applications.
+These builds use **ad-hoc signatures** and have **no Apple Developer ID signature or notarization**. The “Apple could not verify…” warning can therefore still appear after the packaging correction.
 
-These builds use **ad-hoc signatures**. They are **not Apple Developer ID signed or notarized**. macOS may therefore require a per-app “Open Anyway” confirmation in System Settings > Privacy & Security after an opening attempt. Only approve a download whose source and checksum you have verified. Do not disable Gatekeeper system-wide.
+Follow the [Apple Silicon/M1 installation guide](INSTALL-MACOS.md) ([Português](INSTALL-MACOS.pt-BR.md)) for checksum verification, copying the application to Applications, the per-app **Open Anyway / Abrir Mesmo Assim** procedure and troubleshooting. Intel users must choose the x64 DMG and its corresponding checksum.
 
-Apple's guidance: https://support.apple.com/en-us/102445
-
-If opening still fails, report the exact error message, macOS version, chip architecture, and installer filename.
+The guide links to Apple's official instructions and lists the details needed for a support report.
 
 ## Integrity
 

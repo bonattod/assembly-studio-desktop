@@ -6,19 +6,21 @@ Developed by Diego Bonatto · LBCM · Universidade Federal do Rio Grande do Sul 
 
 [Download installers](https://github.com/bonattod/assembly-studio-desktop/releases/latest) · [Português](README.pt-BR.md) · [Validation](VALIDATION.md) · [Report an issue](https://github.com/bonattod/assembly-studio-desktop/issues)
 
-## Download version 1.14.0
+## Downloads
 
-Choose the package for your operating system and processor. The installers are public and can be downloaded without joining a laboratory or requesting access to the hosted web application.
+Choose the package for your operating system and processor. The published Windows and Linux installers are version 1.14.0 and can be downloaded without requesting web access.
+
+**Apple Silicon / M1:** use the corrected macOS 1.14.1 package and follow the [Mac installation guide](INSTALL-MACOS.md), including the “Apple could not verify…” instructions. As of 17 November 2026, the 1.14.1 upload to GitHub Releases is pending; the 1.14.0 Mac packages remain archived in the old release and had a signing problem.
 
 | Platform | Package |
 | --- | --- |
 | Windows, x64 | [Windows installer (.exe)](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-win-x64.exe) |
 | Debian / Ubuntu Linux, x64 | [Debian package (.deb)](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-linux-amd64.deb) |
 | Other compatible Linux distributions, x64 | [Linux archive (.tar.gz)](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-linux-x64.tar.gz) |
-| macOS, Apple Silicon | [Mac ARM64 disk image (.dmg)](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-mac-arm64.dmg) |
-| macOS, Intel | [Mac x64 disk image (.dmg)](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-mac-x64.dmg) |
+| macOS, Apple Silicon / M1 | 1.14.1 ARM64 DMG — [installation and availability](INSTALL-MACOS.md) |
+| macOS, Intel | 1.14.1 x64 DMG — publication pending; see [release notes](RELEASE-NOTES-1.14.1.md) |
 
-[SHA-256 checksums](SHA256SUMS-Assembly-Studio-Desktop-1.14.0.txt) · [Installation guide in Portuguese](LEIA-ME-Assembly-Studio-Desktop.txt)
+[SHA-256: Windows/Linux 1.14.0](SHA256SUMS-Assembly-Studio-Desktop-1.14.0.txt) · [SHA-256: macOS 1.14.1](SHA256SUMS-Assembly-Studio-Desktop-1.14.1.txt) · [Installation guide in Portuguese](LEIA-ME-Assembly-Studio-Desktop.txt)
 
 The automatically generated **Source code** archives on the release page contain this distribution repository's documentation, not the application source or an installer. Download a platform-specific package from the table above.
 
@@ -46,9 +48,9 @@ sudo apt install ./Assembly-Studio-Desktop-1.14.0-linux-amd64.deb
 
 **Other compatible Linux distributions:** extract the `.tar.gz` and run `./assembly-studio-desktop` from the extracted directory. Keep its files together. System graphical libraries are required. Run as a normal user; do not disable Chromium's sandbox to work around compatibility problems.
 
-**macOS:** choose the disk image for Apple Silicon or Intel, open it and copy **Assembly Studio Desktop** to Applications.
+**macOS Apple Silicon / M1:** follow the [dedicated installation guide](INSTALL-MACOS.md) ([Português](INSTALL-MACOS.pt-BR.md)). It identifies the ARM64 installer, gives its checksum and explains the per-app **Open Anyway** procedure. For an Intel Mac, select the 1.14.1 `mac-x64` package and its corresponding checksum instead.
 
-These initial packages do not have a publisher code-signing certificate or Apple notarization. Operating-system or institutional policies may prevent installation. Do not disable system-wide security protections. Windows and macOS installation and GUI behavior have not yet been manually tested on clean machines; see [validation and limitations](VALIDATION.md).
+The macOS 1.14.1 package uses an ad-hoc signature; it has no Apple Developer ID signature or notarization. Native macOS startup checks passed, but first-launch approval on a clean end-user Mac remains unverified. The Windows installer also lacks a publisher signing certificate. See [validation and limitations](VALIDATION.md).
 
 ## Projects and offline operation
 

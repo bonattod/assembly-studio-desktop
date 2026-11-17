@@ -1,4 +1,5 @@
-ASSEMBLY STUDIO DESKTOP 1.14.0 — LBCM / UFRGS
+ASSEMBLY STUDIO DESKTOP — LBCM / UFRGS
+Windows/Linux: 1.14.0 | Correção macOS: 1.14.1
 
 A versão desktop usa o mesmo núcleo científico da versão web:
 https://assembly-studio-lbcm.diegobonatto.chatgpt.site
@@ -19,18 +20,26 @@ Extraia o pacote e execute assembly-studio-desktop dentro da pasta extraída.
 Mantenha os arquivos juntos. Bibliotecas gráficas do sistema são necessárias.
 Não execute como root nem desative o sandbox para contornar incompatibilidades.
 
-Mac com Apple Silicon (M1, M2 e posteriores):
-Assembly-Studio-Desktop-1.14.0-mac-arm64.dmg
+Mac com Apple Silicon (incluindo MacBook Air M1):
+Assembly-Studio-Desktop-1.14.1-mac-arm64.dmg
 
 Mac com processador Intel:
-Assembly-Studio-Desktop-1.14.0-mac-x64.dmg
+Assembly-Studio-Desktop-1.14.1-mac-x64.dmg
 
-No Mac, abra o DMG e copie Assembly Studio Desktop para Aplicativos.
+Em 17/11/2026, o upload dos pacotes macOS 1.14.1 ao GitHub Releases está
+pendente. Os arquivos 1.14.0 da release antiga tiveram um problema de assinatura.
+Consulte a disponibilidade em:
+https://github.com/bonattod/assembly-studio-desktop/releases
 
-Estes pacotes iniciais não possuem certificado de assinatura do publicador
-nem notarização Apple. O sistema ou as regras da instituição podem bloquear a
-instalação. Para uma distribuição institucional ampla, é recomendável assinar
-os instaladores. Não é necessário desativar globalmente a segurança do sistema.
+A versão macOS 1.14.1 possui assinatura ad hoc, mas ainda não tem assinatura
+Apple Developer ID nem notarização Apple. O aviso “Apple could not verify…”
+pode continuar aparecendo. O guia abaixo contém o SHA-256 do pacote M1,
+a instalação em Aplicativos e o procedimento de autorização individual
+“Abrir Mesmo Assim / Open Anyway”, além das informações para relatar erros:
+https://github.com/bonattod/assembly-studio-desktop/blob/main/INSTALL-MACOS.pt-BR.md
+
+Mantenha as proteções globais do sistema ativadas. Para obter o pacote
+corrigido enquanto a publicação estiver pendente: diego.bonatto@ufrgs.br.
 
 PROJETOS E ARQUIVOS
 
@@ -58,16 +67,25 @@ A distribuição desktop é independente da lista de e-mails autorizados no site
 quem receber o instalador poderá executar o programa localmente. A versão web
 mantém seu endereço e suas permissões atuais.
 
-VALIDAÇÃO DESTA ENTREGA
+VALIDAÇÃO DA VERSÃO 1.14.0
 
 283 testes do núcleo científico e 10 testes específicos do desktop passaram
 localmente. No Linux, foram testados geração de exemplos Gibson e TPA,
 salvamento/reabertura de projeto e exportação SnapGene. O arquivo SnapGene
 exportado foi conferido: 3.000 pb e 18 registros de primers.
 
-Os instaladores de Windows e macOS foram compilados em executores desses
-sistemas. Sua interface e a instalação em máquinas limpas ainda não foram
-avaliadas manualmente nesta sessão. O teste visual disponível foi feito em Linux.
+Os instaladores 1.14.0 de Windows e macOS foram compilados em executores
+desses sistemas. A verificação visual daquela versão foi feita em Linux.
+
+CORREÇÃO MACOS 1.14.1
+
+O núcleo científico permanece na versão 1.14.0. Os novos pacotes macOS
+passaram por verificação de integridade do DMG e assinatura do aplicativo,
+além de teste nativo de inicialização e leitura/gravação de projeto.
+Em Apple Silicon, o exemplo sintético gerou 2.334 pb e seis primers.
+A aprovação inicial pelo Gatekeeper em uma máquina de usuário com
+instalação limpa ainda não foi verificada. Detalhes:
+https://github.com/bonattod/assembly-studio-desktop/blob/main/VALIDATION.md
 
 As verificações computacionais não equivalem à validação experimental.
 O arquivo SHA256SUMS fornecido permite conferir a integridade dos downloads.

@@ -1,5 +1,7 @@
 # Assembly Studio Desktop 1.14.0
 
+> **macOS update (17 November 2026):** the 1.14.0 Mac packages had a signing problem. Corrected 1.14.1 packages have been checked and await GitHub upload. For Apple Silicon/M1 installation and the Apple verification warning, see the [English guide](INSTALL-MACOS.md) or [guia em português](INSTALL-MACOS.pt-BR.md). Windows/Linux downloads remain at 1.14.0. The record below describes the original release.
+
 First public desktop distribution of Assembly Studio, developed at LBCM / UFRGS for DNA assembly planning, oligonucleotide design and construct verification.
 
 ## Download

@@ -1,4 +1,14 @@
-# Validation and limitations — 1.14.0
+# Validation and limitations
+
+## macOS packaging correction — 1.14.1
+
+The macOS update keeps scientific core 1.14.0 and changes desktop packaging/signing. Its GitHub binary upload remains pending as of 17 November 2026. See [release notes](RELEASE-NOTES-1.14.1.md).
+
+The [native ARM64 report](validation/macos-arm64-1.14.1.json) records DMG verification, deep/strict signature checks before and after copying the application, ad-hoc signing and hardened runtime. The copied application launched with renderer isolation, executed WebAssembly and generated a 2,334-bp synthetic construct with six primers. Project JSON round-trip equality passed.
+
+The report explicitly records `notarized: false` and `gatekeeperApprovalTested: false`. These checks do not prove malware absence or first-launch approval on a clean end-user Mac. Instructions for the Apple verification warning are available in [English](INSTALL-MACOS.md) and [Português](INSTALL-MACOS.pt-BR.md).
+
+## Original release record — 1.14.0
 
 This release packages the Assembly Studio 1.14.0 scientific core in a desktop application. The original installers are redistributed unchanged; the SHA-256 file identifies their exact bytes.
 
