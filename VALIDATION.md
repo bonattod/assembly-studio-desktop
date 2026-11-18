@@ -2,7 +2,7 @@
 
 ## macOS packaging correction — 1.14.1
 
-The macOS update keeps scientific core 1.14.0 and changes desktop packaging/signing. Its GitHub binary upload remains pending as of 17 November 2026. See [release notes](RELEASE-NOTES-1.14.1.md).
+The macOS update keeps scientific core 1.14.0 and changes desktop packaging/signing. Both macOS installers are published in [release 1.14.1](https://github.com/bonattod/assembly-studio-desktop/releases/tag/v1.14.1); their GitHub asset SHA-256 digests match the locally verified installers. See [release notes](RELEASE-NOTES-1.14.1.md).
 
 The [native ARM64 report](validation/macos-arm64-1.14.1.json) records DMG verification, deep/strict signature checks before and after copying the application, ad-hoc signing and hardened runtime. The copied application launched with renderer isolation, executed WebAssembly and generated a 2,334-bp synthetic construct with six primers. Project JSON round-trip equality passed.
 

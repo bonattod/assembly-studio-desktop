@@ -10,15 +10,15 @@ Developed by Diego Bonatto · LBCM · Universidade Federal do Rio Grande do Sul 
 
 Choose the package for your operating system and processor. The published Windows and Linux installers are version 1.14.0 and can be downloaded without requesting web access.
 
-**Apple Silicon / M1:** use the corrected macOS 1.14.1 package and follow the [Mac installation guide](INSTALL-MACOS.md), including the “Apple could not verify…” instructions. As of 17 November 2026, the 1.14.1 upload to GitHub Releases is pending; the 1.14.0 Mac packages remain archived in the old release and had a signing problem.
+**Apple Silicon / M1:** use the corrected macOS 1.14.1 package and follow the [Mac installation guide](INSTALL-MACOS.md), including the “Apple could not verify…” instructions. The corrected installers are available in [release 1.14.1](https://github.com/bonattod/assembly-studio-desktop/releases/tag/v1.14.1). The 1.14.0 Mac packages remain archived in the old release and had a signing problem.
 
 | Platform | Package |
 | --- | --- |
 | Windows, x64 | [Windows installer (.exe)](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-win-x64.exe) |
 | Debian / Ubuntu Linux, x64 | [Debian package (.deb)](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-linux-amd64.deb) |
 | Other compatible Linux distributions, x64 | [Linux archive (.tar.gz)](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-linux-x64.tar.gz) |
-| macOS, Apple Silicon / M1 | 1.14.1 ARM64 DMG — [installation and availability](INSTALL-MACOS.md) |
-| macOS, Intel | 1.14.1 x64 DMG — publication pending; see [release notes](RELEASE-NOTES-1.14.1.md) |
+| macOS, Apple Silicon / M1 | [Apple Silicon / M1 DMG (1.14.1)](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.1/Assembly-Studio-Desktop-1.14.1-mac-arm64.dmg) |
+| macOS, Intel | [Intel DMG (1.14.1)](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.1/Assembly-Studio-Desktop-1.14.1-mac-x64.dmg) |
 
 [SHA-256: Windows/Linux 1.14.0](SHA256SUMS-Assembly-Studio-Desktop-1.14.0.txt) · [SHA-256: macOS 1.14.1](SHA256SUMS-Assembly-Studio-Desktop-1.14.1.txt) · [Installation guide in Portuguese](LEIA-ME-Assembly-Studio-Desktop.txt)
 
@@ -77,7 +77,7 @@ On macOS, compute a downloaded file's hash using `shasum -a 256 <filename>`. On 
 
 Use [Issues](https://github.com/bonattod/assembly-studio-desktop/issues) to report a problem or suggest a feature. Include the application version, operating system and steps to reproduce. Share a minimal synthetic example when possible; issues and attachments in this repository are public.
 
-Suggested citation: **Bonatto, D. (2026). Assembly Studio Desktop (Version 1.14.0) [Computer software]. LBCM, UFRGS. https://github.com/bonattod/assembly-studio-desktop**
+Suggested citation: **Bonatto, D. (2026). Assembly Studio Desktop (Version 1.14.1) [Computer software]. LBCM, UFRGS. https://github.com/bonattod/assembly-studio-desktop**
 
 Machine-readable citation metadata is provided in [CITATION.cff](CITATION.cff). Cite the original scientific methods relevant to your analysis as well; this software does not replace those references.
 

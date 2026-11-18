@@ -6,9 +6,9 @@
 
 For a MacBook Air M1 or another Apple Silicon Mac, use **`Assembly-Studio-Desktop-1.14.1-mac-arm64.dmg`**. The `mac-x64` package is for Intel Macs.
 
-**Publication status, checked on 17 November 2026:** the corrected 1.14.1 installers have been built and checked, but their upload to GitHub Releases is still pending. The public release currently contains version 1.14.0. Its macOS packages had a signing problem; this guide is for **1.14.1**. Windows and Linux remain on 1.14.0.
+The corrected macOS installers are published in [release 1.14.1](https://github.com/bonattod/assembly-studio-desktop/releases/tag/v1.14.1). The older 1.14.0 macOS packages had a signing problem; this guide is for **1.14.1**. Windows and Linux remain on 1.14.0.
 
-Check [Releases](https://github.com/bonattod/assembly-studio-desktop/releases) for availability. If you do not already have the corrected installer supplied by the maintainer, contact [diego.bonatto@ufrgs.br](mailto:diego.bonatto@ufrgs.br). The automatically generated “Source code” ZIP is not an installer.
+Download the [Apple Silicon / M1 installer](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.1/Assembly-Studio-Desktop-1.14.1-mac-arm64.dmg) or, for an Intel Mac, the [Intel installer](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.1/Assembly-Studio-Desktop-1.14.1-mac-x64.dmg). The automatically generated “Source code” ZIP is not an installer. For support, contact [diego.bonatto@ufrgs.br](mailto:diego.bonatto@ufrgs.br).
 
 ## Check and install the M1 package
 

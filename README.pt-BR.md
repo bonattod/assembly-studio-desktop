@@ -8,15 +8,15 @@ Desenvolvido por Diego Bonatto · LBCM · Universidade Federal do Rio Grande do 
 
 ## Downloads
 
-**Apple Silicon / M1:** utilize o pacote macOS corrigido 1.14.1 e consulte o [guia específico de instalação](INSTALL-MACOS.pt-BR.md), que explica o aviso “Apple could not verify…” e a opção **Abrir Mesmo Assim**. Em 17/11/2026, o envio da versão 1.14.1 ao GitHub Releases ainda está pendente. Os pacotes macOS 1.14.0 permanecem no histórico da release e apresentaram um problema de assinatura. Windows e Linux continuam disponíveis na versão 1.14.0.
+**Apple Silicon / M1:** utilize o pacote macOS corrigido 1.14.1 e consulte o [guia específico de instalação](INSTALL-MACOS.pt-BR.md), que explica o aviso “Apple could not verify…” e a opção **Abrir Mesmo Assim**. Os instaladores corrigidos estão disponíveis na [release 1.14.1](https://github.com/bonattod/assembly-studio-desktop/releases/tag/v1.14.1). Os pacotes macOS 1.14.0 permanecem no histórico da release e apresentaram um problema de assinatura. Windows e Linux continuam disponíveis na versão 1.14.0.
 
 | Computador | Arquivo |
 | --- | --- |
 | Windows x64 | [Instalador .exe](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-win-x64.exe) |
 | Linux Debian/Ubuntu x64 | [Pacote .deb](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-linux-amd64.deb) |
 | Outras distribuições Linux compatíveis, x64 | [Arquivo .tar.gz](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.0/Assembly-Studio-Desktop-1.14.0-linux-x64.tar.gz) |
-| Mac com Apple Silicon / M1 | DMG ARM64 1.14.1 — [instalação e disponibilidade](INSTALL-MACOS.pt-BR.md) |
-| Mac com processador Intel | DMG x64 1.14.1 — publicação pendente; consulte as [notas da versão](RELEASE-NOTES-1.14.1.md) |
+| Mac com Apple Silicon / M1 | [DMG Apple Silicon / M1 (1.14.1)](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.1/Assembly-Studio-Desktop-1.14.1-mac-arm64.dmg) |
+| Mac com processador Intel | [DMG Intel (1.14.1)](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.1/Assembly-Studio-Desktop-1.14.1-mac-x64.dmg) |
 
 Não é necessário solicitar acesso à versão web para usar os instaladores publicados. Os arquivos **Source code** gerados automaticamente pelo GitHub contêm a documentação deste repositório de distribuição; escolha o pacote da sua plataforma conforme a disponibilidade indicada acima.
 
@@ -42,7 +42,7 @@ A [versão web](https://assembly-studio-lbcm.diegobonatto.chatgpt.site) permanec
 
 Relate problemas ou sugestões em [Issues](https://github.com/bonattod/assembly-studio-desktop/issues), informando versão, sistema operacional e passos para reproduzir. Prefira exemplos sintéticos mínimos, pois os relatos e anexos são públicos.
 
-Citação sugerida: **Bonatto, D. (2026). Assembly Studio Desktop (Version 1.14.0) [Computer software]. LBCM, UFRGS. https://github.com/bonattod/assembly-studio-desktop**
+Citação sugerida: **Bonatto, D. (2026). Assembly Studio Desktop (Version 1.14.1) [Computer software]. LBCM, UFRGS. https://github.com/bonattod/assembly-studio-desktop**
 
 Cite também os artigos das técnicas científicas utilizadas.
 

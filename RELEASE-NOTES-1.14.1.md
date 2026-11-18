@@ -4,10 +4,10 @@ This patch addresses the macOS packaging problem reported when opening version 1
 
 ## Download selection
 
-**Publication status, checked on 17 November 2026:** installer upload to GitHub Releases is pending. These notes document the prepared macOS update, not a completed public release. See the [installation and availability guide](INSTALL-MACOS.md) ([Português](INSTALL-MACOS.pt-BR.md)).
+The macOS installers are available in [release 1.14.1](https://github.com/bonattod/assembly-studio-desktop/releases/tag/v1.14.1). See the [installation guide](INSTALL-MACOS.md) ([Português](INSTALL-MACOS.pt-BR.md)).
 
-- Apple Silicon (M1, M2 and later): `Assembly-Studio-Desktop-1.14.1-mac-arm64.dmg`.
-- Intel Macs: `Assembly-Studio-Desktop-1.14.1-mac-x64.dmg`.
+- Apple Silicon (M1, M2 and later): [ARM64 DMG](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.1/Assembly-Studio-Desktop-1.14.1-mac-arm64.dmg).
+- Intel Macs: [Intel x64 DMG](https://github.com/bonattod/assembly-studio-desktop/releases/download/v1.14.1/Assembly-Studio-Desktop-1.14.1-mac-x64.dmg).
 - Windows and Linux: continue using their existing 1.14.0 installers.
 
 ## What changed

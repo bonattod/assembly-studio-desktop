@@ -7,8 +7,8 @@ authors:
     given-names: "Diego"
     email: "diego.bonatto@ufrgs.br"
     affiliation: "LBCM, Universidade Federal do Rio Grande do Sul (UFRGS)"
-version: "1.14.0"
-date-released: 2026-11-15
+version: "1.14.1"
+date-released: 2026-11-17
 url: "https://github.com/bonattod/assembly-studio-desktop"
 abstract: "Desktop workspace for DNA assembly planning, oligonucleotide design, synthesis exports and construct verification."
 keywords:
